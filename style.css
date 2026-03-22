@@ -78,19 +78,19 @@ ul li a:hover { color: #3baed1; }
     text-align: center;
 }
 .girl {
-    width: 150px;        /* square size */
-    height: 150px;       /* make height equal width */
-    border-radius: 10px; /* small rounded corners for style */
-    object-fit: cover;   /* ensures the image covers the box without distortion */
+    width: 150px;       
+    height: 150px;      
+    border-radius: 10px; 
+    object-fit: cover;   
     display: block;
 }
 
 .hero-image img {
-    width: 350px;                /* square width */
-    height: 350px;               /* square height */
-    object-fit: cover;           /* keep aspect ratio */
-    border-radius: 50%;     /* rounded corners */
-    filter: drop-shadow(0 0px 30px rgba(149, 230, 84, 0.7)); /* optional shadow */
+    width: 350px;               
+    height: 350px;              
+    object-fit: cover;          
+    border-radius: 50%;    
+    filter: drop-shadow(0 0px 30px rgba(149, 230, 84, 0.7)); 
 }
 
 .section-title {
@@ -110,10 +110,9 @@ ul li a:hover { color: #3baed1; }
 }
 
 .glass-card:hover {
-    border: 1px solid rgba(59, 174, 209, 0.3); /* Card glows on hover */
+    border: 1px solid rgba(59, 174, 209, 0.3); 
 }
 
-/* Hero Section Specifics */
 .main { height: 100vh; }
 .hero {
     height: 100vh;
@@ -127,7 +126,6 @@ ul li a:hover { color: #3baed1; }
 .info span { color: #3baed1; }
 .info p { font-size: 1.2rem; color: #ddd; max-width: 500px; margin-bottom: 25px;}
 
-/* Interactive Button */
 .btn {
     display: inline-block;
     padding: 15px 40px;
@@ -147,7 +145,6 @@ ul li a:hover { color: #3baed1; }
     box-shadow: 0 12px 20px rgba(255, 255, 255, 0.2);
 }
 
-/* Services Cards Interaction */
 .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -169,10 +166,6 @@ ul li a:hover { color: #3baed1; }
 
 .p-90 { width: 90%; } .p-85 { width: 85%; } .p-70 { width: 70%; } .p-80 { width: 80%; }
 
-/* Contact Icons Interaction */
-/* CONTACT FORM */
-/* Contact Grid Layout */
-/* Contact Grid Layout */
 .contact-grid {
     display: flex;
     justify-content: space-between;
@@ -205,11 +198,11 @@ ul li a:hover { color: #3baed1; }
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    gap: 10px; /* Using gap instead of heavy margins is cleaner */
+    gap: 10px;
 }
 
 .icons ion-icon {
-    font-size: 35px; /* Slightly smaller for better balance */
+    font-size: 35px;
     color: #fff;
     transition: 0.3s ease;
     cursor: pointer;
