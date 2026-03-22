@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleni | Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-overlay"></div>
+
+    <div class="main" id="home"> 
+        <nav class="navbar">
+            <h2 class="logo"><image src="eleni.jpg" alt="Eleni Logo" style="width: 10%;height: 10%; border-radius: 50%; margin-bottom: 0;"></image></h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <div class="info">
+                <h3>Hello, I'm <span>Eleni</span></h3>
+                <h1>Web Designer</h1>
+                <p>I design simple and modern websites using HTML and CSS.</p>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+            <div class="hero-image">
+                <img src="eluu.jpg" class="girl" alt="Eleni Profile">
+            </div>
+        </section>
+    </div>
+
+    <section id="about" class="section-padding">
+        <div class="container glass-card">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I am currently a 3rd-year student in wolkite university. <br> I am passionate about creating clean, user-friendly interfaces that help brands grow. <br> I turn complex problems into beautiful, functional designs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <div class="cards-container">
+                <div class="card glass-card">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                    <h3>Web Design</h3>
+                    <p>Creating modern and simple website layouts tailored to your brand identity.</p>
+                </div>
+                <div class="card glass-card">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                    <h3>Development</h3>
+                    <p>Turning creative designs into functional, clean code using HTML and CSS.</p>
+                </div>
+                <div class="card glass-card">
+                    <ion-icon name="phone-portrait-outline"></ion-icon>
+                    <h3>UI/UX Design</h3>
+                    <p>Focusing on the user journey to ensure your site is intuitive and easy to navigate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-padding">
+        <div class="container glass-card">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <span>HTML5</span>
+                    <div class="bar"><div class="progress p-90"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>CSS3</span>
+                    <div class="bar"><div class="progress p-85"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>python</span>
+                    <div class="bar"><div class="progress p-70"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>UI Design</span>
+                    <div class="bar"><div class="progress p-80"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section-padding">
+        <div class="container glass-card">
+            <h2 class="section-title">Get In Touch</h2>
+            
+            <div class="contact-grid">
+                
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Ready to start your next project? Let's talk!</p>
+                    
+                    <div class="details">
+                        <p><ion-icon name="location-outline"></ion-icon> Wolkite University, Ethiopia</p>
+                        <p><ion-icon name="mail-outline"></ion-icon> elenidendir@gmail.com</p>
+                    </div>
+
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="paper-plane-outline"></ion-icon></a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="input-row">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
